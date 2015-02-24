@@ -1,0 +1,1153 @@
+/*
+
+SecondHandEd Css
+=============
+
+Author:  Shruti Joshi
+Updated:  Jan 25,2015
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+.SearchItem.jumbotron{
+    margin-left: 0;
+    display : inline;
+    float : left;
+}
+.SearchItem.jumbotron.item_detail{
+    margin-left: 0;
+    display : inline;
+    float : left;
+}
+.item_image.medium{
+    margin-right: 20px;
+    max-width : 200px;
+    display :inline;
+    float:left;
+}
+
+.register,
+.login
+{
+    margin-top : 5px;
+    margin-right : 10px;
+}
+.register{
+    background-color: #2c6877;
+}
+
+.searchOptions.item.well{
+    padding-top : 0;
+    margin : 0;
+    height : 52px;
+}
+.form-control.small {
+    width : 130px;
+    margin-right : 10px;
+    float : left;
+}
+
+.large_img{
+    width:225px;
+    height:225px;
+}
+.search_form {
+    display: block;
+}
+
+h3.item_owner{
+    display : inline;
+}
+#features{
+    text-align: center;
+}
+
+#features img{
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+#bg{
+    background-color: #d0d0d0;
+}
+
+#brand{
+
+    margin-top: -2cm;
+    margin-left: 12cm;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+    -webkit-font-smoothing: antialiased;
+    text-rendering:optimizelengibility;
+}
+
+.well .page-header{
+    margin-top: 0px;
+}
+
+.well .page-header h1 {
+    margin-top: 0px;
+}
+
+ul.unstyled{
+    list-style: none;
+    padding: 0;
+}
+
+#thumbnail{
+    padding: 5px;
+    text-align: center;
+}
+
+#thumbnailBottom{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#thumbs{
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+}
+
+#Rtitle{
+    margin-top: 5px;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+.Copy{
+    color: white;
+    text-align: center;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput{
+    width: 200px;
+}
+
+#search{
+    padding-left: 0.5cm;
+}
+
+#icon{
+
+    float: right;
+}
+
+#account{
+
+    margin-right: 2cm;
+}
+
+#bg{
+    color: white;
+}
+
+==================== SIDE BAR ==========
+
+.bs-sidebar.affix {
+    width: 263px;
+    top: 25px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {}
+
+p { margin-bottom: 5px;}
+
+#myCarousel .item {
+    height: 300px;
+}
+
+.carousel-caption{
+    font-size: 22px;
+}
+
+.carousel-caption h4{
+    font-size: 28px;
+}
+
+#slide1 {
+    background: url('../../images/carousel_medium_01.png') top center no-repeat;
+}
+
+#slide2 {
+    background: url('../../images/carousel_medium_02.png') top center no-repeat;
+}
+
+#slide3 {
+    background: url('../../images/carousel_medium_03.png') top center no-repeat;
+}
+
+// Fade transition for carousel items
+   .carousel {
+.item {
+    left: 0 !important;
+.transition(opacity .4s); //adjust timing here
+}
+.carousel-control {
+    background-image: none; // remove background gradients on controls
+}
+// Fade controls with items
+   .next.left,
+   .prev.right {
+       opacity: 1;
+       z-index: 1;
+   }
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#bigCallout{
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.well{
+    margin:20px 0;
+}
+
+#banner{
+    margin-top: 30px;
+    min-width: 900px;
+}
+
+.item_detail{
+    font-size:20px;
+}
+
+#itemImage{
+    margin-top: 0cm;
+    margin-left: 0.5cm;
+    margin-bottom: 1cm;
+
+}
+
+#itemName{
+    margin-top: 3cm;
+    margin-left: 3cm;
+    font-size: 32px;
+    font-family: 'Arimo', sans-serif;
+}
+
+#itemDetails{
+    margin-left: 3cm;
+    font-size: 18px;
+}
+
+.listButton{
+    margin-top: 3cm;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    #myCarousel .item {
+        height: 210px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_small_01.png') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_small_02.png') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_small_03.png') top center no-repeat;
+    }
+
+    .carousel-caption{
+        font-size: 16px;
+    }
+
+    .carousel-caption h4{
+        font-size: 20px;
+    }
+
+    @media (min-width: 768px) {
+        .bs-sidebar.affix {
+            width: 158px;
+            top: 25px;
+        }
+    }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+    #myCarousel .item {
+        height: 400px;
+    }
+
+    #slide1 {
+        background: url('../../images/carousel_large_01.png') top center no-repeat;
+    }
+
+    #slide2 {
+        background: url('../../images/carousel_large_02.png') top center no-repeat;
+    }
+
+    #slide3 {
+        background: url('../../images/carousel_large_03.png') top center no-repeat;
+    }
+
+    @media (min-width: 1200px) {
+        .bs-sidebar.affix {
+            width: 263px;
+        }
+    }
+
+}
+
+/* --------------------------------------
+   Side Navbar
+   -------------------------------------- */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #2E9AFE;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #2E9AFE;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+    margin-left:-0.7cm;
+    margin-top:0.8cm;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: White;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+
+
+=================================
+Registrestion Page
+=================================
+=================================
+MyListings
+=================================
+.side{
+    margin-left:-0.7cm;
+    margin-top:0.8cm;
+}
+
+.form{
+    margin-left:2cm; margin-top:10px;
+}
+
+.headerL{
+    margin-top:1cm; margin-left:2cm;
+}
+
+
+
+=================================
+Item Details page
+=================================
+.comments{
+    max-width: 6cm;
+}
+.jumbotron{
+    background-color: #eee;
+    margin: 0.5cm 2cm 1cm 2cm;
+    min-width: 18cm;
+    padding: 5px;
+}
+
+#commentsTitle{
+    margin-left: 2cm;
+}
+
+.img-comment{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.comment-thumb{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.textform{
+    margin-left: 1cm;
+}
+
+textarea.form-control{
+    margin-left: 1.7cm;
+    max-height: 2cm;
+    max-width: 15cm;
+    margin-top: -1cm;
+}
+
+.comment-username{
+    font-size: 14px;
+    margin-left: 1.7cm;
+    margin-top: -1cm;
+    color: #0d0d0d;
+}
+
+.comment-main{
+    font-size: 14px;
+    margin-left: 1.7cm;
+    margin-top: 0cm;
+    color: #2E9AFE;
+}
+
+.comment-reply{
+    font-size: 14px;
+    margin-left: 1.7cm;
+    margin-top: 0cm;
+    color: orange;
+}
+
+.jumbo-reply{
+    margin-left: 5cm;
+}
+
+.btn-comment-reply{
+    font-size: 13px;
+    color: #0d0d0d;
+    margin-left: 1cm;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.itemButtons{
+    margin-right: -1.5cm;
+}
+
+.itemSeller{
+    margin-right: -1.5cm;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/*
+
+SecondHandEd Css
+=============
+
+Author:  Shruti Joshi
+Updated:  Jan 25,2015
+
+
+/*
+/*item divs*/
+body { padding-top: 50px; }
+
+#upload{
+    display:inline !important;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+
+/*
+  item view and comments
+*/
+.comment .comment_reply {
+    display: none;
+}
+.comment_reply_form .textarea{
+    max-height: 200px;
+
+}
+.comment_reply_form .comment_body{
+    line-height: 10px;
+
+
+}
+.comment_form .textarea{
+    max-height: 200px;
+    width : 100%;
+
+}
+.comment_form .comment_body{
+    line-height: 10px;
+    width : 100%;
+
+}
+.comment .reply_button {
+    height: 20px;
+    width: 60px;
+    float : right;
+}
+.comment .cancel_button {
+    height: 20px;
+    width: 60px;
+    float : right;
+}
+
+
+.comments{
+    max-width: 6cm;
+}
+.jumbotron{
+    background-color: #eee;
+    margin: 0.5cm 2cm 1cm 2cm;
+    min-width: 18cm;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.text-area {
+    background-color: #f5f5f5;
+    margin : 15px;
+}
+
+#commentsTitle{
+    margin-left: 2cm;
+}
+
+.img-comment{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.comment-thumb{
+    max-width: 50px;
+    max-height: 50px;
+    display : inline;
+}
+
+.textform{
+    margin-left: 1cm;
+}
+
+textarea.form-control{
+
+    max-height: 2cm;
+    max-width: 15cm;
+   /* margin-top: -1cm; */
+}
+
+.comment-username{
+    font-size: 25px;
+    max-width: 300px;
+    margin-top: -1cm;
+    color: #0d0d0d;
+    display: inline;
+
+}
+
+.comment_target{
+    font-size: 14px;
+
+    margin-top: 0cm;
+    display : inline;
+    color: #2E9AFE;
+}
+
+
+.comment-main{
+    font-size: 16px;
+
+    margin-top: 0cm;
+    color: black;
+}
+
+.comment-reply{
+    font-size: 14px;
+
+    margin-top: 0cm;
+    color: orange;
+}
+.owner_comment{
+    background-color: #FFD1A3;
+}
+.owner_comment .comment-main{
+    background-color: #FFE3C8;
+}
+
+.jumbo-reply{
+    margin-left: 5cm;
+
+}
+
+.btn-comment-reply{
+    font-size: 13px;
+    color: #0d0d0d;
+    margin-left: 1cm;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+}
+
+/* new listing / my listings */
+ .new_item_form{
+     margin-left:2cm;
+     margin-top:10px;
+ }
+
+.listImage{
+    margin-left:3.5cm;
+}
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#search div{
+    display: inline;
+}
+#search input{
+    height:35px;
+    margin-top: 2px;
+}
+#search #searchButton{
+    width:40px;
+}
+
+   #features{
+      text-align: center;
+   }
+
+   #features img{
+      margin: 0 0 20px;
+   }
+
+#inputMessage {
+   margin-bottom: 15px;
+}
+
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   body{
+      -webkit-font-smoothing: antialiased;
+      text-rendering:optimizelengibility;
+   }
+
+   .well .page-header{
+      margin-top: 0px;
+   }
+
+   .well .page-header h1 {
+      margin-top: 0px;
+   }
+
+   ul.unstyled{
+      list-style: none;
+      padding: 0;
+   }
+
+   #thumbnail{
+
+      text-align: center;
+   }
+
+   .listimg{
+       margin-left:2cm;
+   }
+
+    #thumbnailBottom{
+      padding: 5px;
+      text-align: center;
+      margin-bottom: 30px;
+   }
+    .thumb_title{
+        height : 30px;
+
+    }
+
+
+   #thumbs{
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+   }
+
+   #Rtitle{
+    margin-top: 5px;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+   }
+
+   .Copy{
+    color: white;
+    text-align: center;
+   }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+      width: 200px;
+   }
+   
+   #search{
+
+         padding-left: 0.5cm;
+   }
+
+   #icon{
+
+   float: right;
+   }
+
+   #account{
+
+      margin-right: 2cm;
+   }
+
+   #bg{
+      background-color: #d0d0d0;
+   }
+
+   .bs-sidebar.affix {
+  width: 263px;
+  top: 25px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {}
+
+   #myCarousel .item {
+      height: 400px;
+   }
+
+   .carousel-caption{
+      font-size: 22px;
+   }
+
+   .carousel-caption h4{
+      font-size: 28px;
+   }
+
+   #slide1 {
+      background: url('../../images/carousel_medium_01.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+   }
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   #bigCallout{
+      margin-top: 20px;
+      margin-right: 50px;
+      margin-left: 50px;
+      text-align: center;
+   }
+  
+   .well{
+      margin:20px 0;
+   }
+
+   #banner{
+    margin-top: 30px;
+    min-width: 900px;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    #myCarousel .item {
+      height: 310px;
+   }
+
+   #slide1 {
+      background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+   }
+
+   .carousel-caption{
+      font-size: 16px;
+   }
+
+   .carousel-caption h4{
+      font-size: 20px;
+   }
+
+   @media (min-width: 768px) {
+  .bs-sidebar.affix {
+    width: 158px;
+    top: 25px;
+  }
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	 #myCarousel .item {
+      height: 500px;
+   }
+
+   #slide1 {
+      background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+   }
+
+   @media (min-width: 1200px) {
+  .bs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+}
+
+/* --------------------------------------
+   Side Navbar
+   -------------------------------------- */
+  
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #2E9AFE;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #2E9AFE;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: White;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+}
+
+=================================
+Registrestion Page
+=================================
+
+=================================
+Listing Page
+=================================
+
+.headerList{
+    margin-top:3cm;
+    margin-left:2cm;
+}
