@@ -26011,3 +26011,174 @@ Stack Trace:
 #1 C:\xampp\htdocs\secondhanded1.3\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
 #2 C:\xampp\htdocs\secondhanded1.3\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-02-27 00:32:22 Error: [MissingActionException] Action ItemsController::bootstrap() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap',
+)
+Request URL: /secondhanded2.0/items/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:32:22 Error: [MissingActionException] Action ItemsController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'includes',
+)
+Request URL: /secondhanded2.0/items/includes/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:36:10 Error: [MissingActionException] Action ItemsController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'includes',
+)
+Request URL: /secondhanded2.0/items/includes/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:36:10 Error: [MissingActionException] Action ItemsController::bootstrap() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap',
+)
+Request URL: /secondhanded2.0/items/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:36:15 Error: [MissingActionException] Action ItemsController::bootstrap() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap',
+)
+Request URL: /secondhanded2.0/items/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:36:15 Error: [MissingActionException] Action ItemsController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'includes',
+)
+Request URL: /secondhanded2.0/items/includes/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:36:20 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('bootstrap', 'js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:36:20 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/includes/js/script.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('includes', 'js', 'script.js')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:36:43 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/includes/js/script.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('includes', 'js', 'script.js')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:36:43 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('bootstrap', 'js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:36:57 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('bootstrap', 'js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:36:57 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/includes/js/script.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('includes', 'js', 'script.js')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:37:13 Error: [MissingActionException] Action ItemsController::new() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'new',
+)
+Request URL: /secondhanded2.0/items/new
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:37:16 Error: [MissingActionException] Action ItemsController::includes() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'includes',
+)
+Request URL: /secondhanded2.0/items/includes/js/script.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:37:16 Error: [MissingActionException] Action ItemsController::bootstrap() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap',
+)
+Request URL: /secondhanded2.0/items/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-02-27 00:37:49 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('bootstrap', 'js', 'bootstrap.min.j...')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-02-27 00:37:49 Error: [NotFoundException] Invalid post
+Request URL: /secondhanded2.0/items/view/includes/js/script.js
+Stack Trace:
+#0 [internal function]: ItemsController->view('includes', 'js', 'script.js')
+#1 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#2 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\secondhanded2.0\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\secondhanded2.0\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

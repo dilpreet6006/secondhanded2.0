@@ -7,6 +7,8 @@ class SearchComponent extends Component {
      *      $params: array()
      *          "searchString"
      *          "semester"
+     *
+     *
      */
 
     /*  NOTES:
